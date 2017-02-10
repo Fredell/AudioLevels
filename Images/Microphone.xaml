@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="AudioLevels.Images.Microphone"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d"
+             d:DesignHeight="32" d:DesignWidth="32">
+    <Canvas x:Name="Layer1" Width="32" Height="32">
+        <Path x:Name="Path" Width="12.365" Height="24.781" Canvas.Left="10.167" Stretch="Fill" StrokeLineJoin="Round"
+              Stroke="#FFFFFFFF" Fill="#FFFFFFFF"
+              Data="F1 M 224.467,288.5C 224.467,341.519 181.486,384.5 128.467,384.5C 75.4478,384.5 32.4671,341.519 32.4671,288.5L 32.4671,96.5C 32.4671,43.4807 75.4478,0.50002 128.467,0.50002C 181.486,0.50002 224.467,43.4807 224.467,96.5L 224.467,288.5 Z "
+              RenderTransformOrigin="0.511,0.506" Canvas.Top="-0.297" />
+        <Path x:Name="Path1" Width="19.882" Height="15.407" Canvas.Top="16.593" Stretch="Fill" StrokeLineJoin="Round"
+              Stroke="#FFFFFFFF" Fill="#FFFFFFFF"
+              Data="F1 M 239.326,275.248L 256.467,275.248C 254.942,346.882 207.426,405.627 146.04,415.15C 146.647,415.932 147.242,417.179 148.263,419.167C 151.004,424.5 156.819,435.167 165.059,443.298C 173.3,451.429 183.967,457.026 183.967,462.359C 183.967,467.692 173.3,472.763 165.309,475.298C 157.319,477.833 152.004,477.833 146.671,477.833L 127.976,477.833C 119.967,477.833 109.3,477.833 98.6336,475.298C 87.967,472.763 77.3003,467.692 77.3003,462.359C 77.3003,457.026 87.967,451.429 95.9762,443.298C 103.553,435.606 108.752,425.645 113.822,415.561C 51.0413,407.464 2.04871,348.004 0.5,275.248L 19.9273,275.248C 21.9462,342.042 70.2876,395.487 129.627,395.487C 188.965,395.487 237.307,342.042 239.326,275.248 Z "
+              Canvas.Left="6.226" />
+    </Canvas>
+</UserControl>
